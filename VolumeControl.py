@@ -36,7 +36,7 @@ def countFingers(image, hand_landmarks, handNo=0):
                 if lm_index !=4:
                     if finger_tip_y < finger_bottom_y:
                         fingers.append(1)
-                        # print("FDEDO com id ",lm_index," is Open")
+                        # print("DEDO com id ",lm_index," is Open")
 
                     if finger_tip_y > finger_bottom_y:
                         fingers.append(0)
