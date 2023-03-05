@@ -102,7 +102,7 @@ while True:
 
     cv2.imshow("Controlador de mídia", image)
 
-    # Quit the window on pressing Sapcebar key
+    # aia da janela ao pressionar a tecla barra de espaço
     key = cv2.waitKey(1)
     if key == 27:
         break
